@@ -1,23 +1,14 @@
 #!/usr/bin/python3
-"""
-Bu modul kvadratı təyin edən Square klasını ehtiva edir.
-"""
+"""Square module."""
 
 
 class Square:
-    """
-    Kvadratı təmsil edən klas.
-    
-    Atributlar:
-        __size: Kvadratın ölçüsü (private).
-    """
+    """Defines a square."""
 
     def __init__(self, size):
-        """
-        Yeni bir Square obyekti yaradır.
+        """Initializes the square.
 
         Args:
-            size: Kvadratın ölçüsü.
+            size (int): The size of the square.
         """
-        self.__size = sizeO
-
+        self.__size = size
