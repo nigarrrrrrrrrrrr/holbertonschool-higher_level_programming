@@ -1,3 +1,2 @@
--- lists all rows of the table first_table from the database hbtn_0c_0
--- (Actually, we will use a different approach since SELECT is forbidden)
-DESC first_table;
+-- create first table
+CREATE TABLE IF NOT EXISTS first_table(id INT, name VARCHAR(256));
